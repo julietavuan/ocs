@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the es_ES locale.
+  *
+ -->
+ 
+<locale name="es_ES" full_name="España Castellano">
+	<message key="plugins.reports.MultiGeneratorPaperReport.displayName">Plugin Multi-Generador de Reportes de Papers</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.description">Este plugin permite generar varios tipos de reportes distintos con la informacion de los papers del congreso</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.title">Plugin Multi-Generador de Reportes de Papers</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.pluginReportSetting">Configuraciones del Plugin Multi-generador</message>
+	<message key="plugins.report.MultiGeneratorPaperReport.instruct1">Seleccione el tipo de reporte a generar</message>
+	<message key="plugins.report.MultiGeneratorPaperReport.locale.button">Seleccionar</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.locale.ReportClassRequired">"Seleccione un tipo de reporte válido"</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.classNotFound">La clase de reporte escogida no existe</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.disable">Desactivar</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.enable">Activar</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.enablemsg">Plugin generador de reportes activado</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.enablemsg">Plugin generador de reportes desactivado</message> 	
+	<!-- PaperTypes -->
+	<message key="plugin.reports.MultiGeneratorPaperReport.csv.reportcsv">Exportación a csv</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.csv.reportcsvDescription">Se genera un reporte en formato csv, formato de tablas que puede ser abierto con Excell o programas similares</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.html.reporthtml">Exportar a HTML</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.html.reporthtmlDescription">Se genera un reporte que contiene código HTML, lo que le da formato al reporte y lo hace mas amigable</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.html.reportTitle">Reporte de Papers</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.doc.reportdoc">Exportación a documento word</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.doc.reportdocDescription">Se genera un reporte en formato doc, que puede ser abierto con un procesador de texto del estilo de Microsoft Word</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.zip.reportzip">Exportación en un paquete zip</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.zip.reportzipDescription">Se genera un reporte en html que tambien tiene todos los pdf de las versiones galeradas de cada artículo, todo empaquetado en un zip</message>
+	
+
+</locale>

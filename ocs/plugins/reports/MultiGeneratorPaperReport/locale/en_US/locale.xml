@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US locale.
+  *
+ -->
+ 
+<locale name="en_US" full_name="English(USA)">
+	<message key="plugins.reports.MultiGeneratorPaperReport.displayName">Multi-Generator Paper Report Plugin</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.description">This plugin allows to generate several types of reports with the information of the conference papers.</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.title">Multi-Generator Paper Report Plugin</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.pluginReportSetting">Multi-Generator Plugin Settings</message>
+	<message key="plugins.report.MultiGeneratorPaperReport.instruct1">Please, select the type of report to generate</message>
+	<message key="plugins.report.MultiGeneratorPaperReport.locale.button">Select</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.locale.ReportClassRequired">Please choose a valid report type</message>
+	<message key="plugins.reports.MultiGeneratorPaperReport.classNotFound">Warning: reportClass not Found</message>
+	
+	<!-- PaperTypes -->
+	<message key="plugin.reports.MultiGeneratorPaperReport.csv.reportcsv">Export to csv</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.csv.reportcsvDescription">Generates a report in a CSV file, which can be open with aplications like Excel</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.html.reporthtml">Export to HTML</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.html.reporthtmlDescription">Generates an HTML report, which can be open in any web browser</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.html.reportTitle">Paper Report</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.doc.reportdoc">Export to DOC</message>
+	<message key="plugin.reports.MultiGeneratorPaperReport.doc.reportdocDescription">Generates a .doc report, which can be open in most text editors like MS Word</message>
+</locale>
